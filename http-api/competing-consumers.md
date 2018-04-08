@@ -294,9 +294,16 @@ For example:
 
 | URI                                                | Supported Content Types | Method |
 | -------------------------------------------------- | ----------------------- | ------ |
-| `/subscriptions/{stream}/{subscription_name}/info` | `application/json`      | GET    |
+| `/subscriptions/{stream}/{group}/info` | `application/json`      | GET    |
 
-### Response
+
+### [Request](#tab/tabid-1)
+
+```bash
+curl -H "Accept:application/json" -X GET http://127.0.0.1:2113/subscriptions/newstream/competing_consumers_group1/info
+```
+
+### [Response](#tab/tabid-2)
 
 ```json
 {
