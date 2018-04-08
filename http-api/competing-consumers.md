@@ -211,7 +211,7 @@ For example:
 
 | URI              | Supported Content Types | Method |
 | ---------------- | ----------------------- | ------ |
-| `/subscriptions` | `application/json`      | POST   |
+| `/subscriptions` | `application/json`      | GET    |
 
 ### Response
 
