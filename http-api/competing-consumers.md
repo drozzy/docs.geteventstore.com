@@ -300,7 +300,7 @@ For example:
 ### [Request](#tab/tabid-1)
 
 ```bash
-curl -H "Accept:application/json" -X GET http://127.0.0.1:2113/subscriptions/newstream/competing_consumers_group1/info
+curl http://127.0.0.1:2113/subscriptions/newstream/competing_consumers_group1/info
 ```
 
 ### [Response](#tab/tabid-2)
